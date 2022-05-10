@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: rgb(255, 254, 254);
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Cabeçalho 01 */
+.header-main-focus{
+    width: 100%;
+}
+.header-main-ajustes{
+    width: 100%;
+}
+.header-main-elements{
+    background-color: white;
+    width: 100%;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.header-menu-button-1{
+    display: none;
+}
+.Header-serach-bar-ajustes{
+    width: 40%;
+}
+.Header-search-menu{
+    width: 30%;
+}
+.header-menu-button-mobile{
+    display: none;
+}
+.header-Logo-img{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.header-Logo-img img{
+    width: 80%;
+}
+.Header-logo{
+    margin-left: -2%;
+    left: 2%;
+    background-color: red;
+    height: 60px;
+    width: 20%;
+    border-bottom-right-radius: 60px;
+}
+
+.Header-search-menu ul{
+    display: flex;
+}
+
+.header-menu a{
+    text-align: center;
+    display: flex;
+    color: black;
+}
+.header-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-options{
+    display: flex;
+    align-items: center;
+    width: 19%;
+}
+.menu-options:hover{
+    cursor: pointer;
+}
+.menu-options img{
+    width: 30%;
+}
+.menu-option-txt{
+    font-size: 10px;
+    max-width: 72%;
+}
+
+.lopa-img{
+    width: 7%;
+    background-color: red;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    align-items: center;
+}
+
+.lopa-img img{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 5%;
+    padding: 8%;
+    align-items: center;
+    width: 80%;
+    
+}
+
+.header-Search-Bar{
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar{
+    width: 85%;
+}
+
+.search-bar{
+    border-width: 1px;
+    border-color: gray;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 1.5%;
+}
+
+/* Cabeçalho 02 */
+.header-product-focus{
+    padding: 1%;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-producs-elements{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-product-ajustes{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.header-producs-ajustes{
+    display: flex;
+    justify-content: center;
+}
+.bar{
+    align-items: center;
+    background-color: whitesmoke;
+    width: 25px;
+    height: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.header-producs-elements a{
+    text-decoration: none;
+    font-size: 17px;
+}
+.element-black{
+    color: black;
+}
+.element-red{
+    color: red;
+}
+
+/* Main  */
+
+
+/* Offer-Main and Slider */
+#main-offer{
+    background-color: rgb(190, 190, 190);
+    margin-top: 2%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#frete-gratis{
+    background-color: rgb(190, 190, 190);
+    margin-top: 2%;
+    width: 95%;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#frete-gratis img{
+    border-radius: 20px;
+}
+
+#element-main{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+#services{
+    box-shadow: 2px 2px 4px darkgray;
+    max-width: 95%;
+    min-height: 100px;
+}
+#element-main img{
+    max-width: 20%;
+}
+#element-red{
+    max-width: 0.5%;
+    background-color: red;
+
+}
+#services{
+    margin-top: 2%; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+/* Offer 03 */
+
+#offer-03 img:hover{
+    cursor: pointer;
+}
+
+/* offer 04*/
+#img-offer-4{
+    max-width: 24%;
+}
+
+#img-offer-4 img{
+    border-radius: 30px;
+}
+
+.focus-slider{
+    padding: 2%;
+    min-height: 120%;
+    background-color: rgb(218, 215, 215);
+}
