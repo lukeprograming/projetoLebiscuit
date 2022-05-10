@@ -1,0 +1,52 @@
+.focus-layers{
+    max-width: 95%;
+    overflow: hidden;
+}
+
+.layers{
+    display: flex;
+    width: 200%;
+}
+
+.layers input{
+    display: none;
+}
+
+.layer01{
+    min-width: 100%;
+    display: flex;
+    transition: 0.5s;
+}
+
+.layer01 img{
+    max-width: 5%;
+}
+
+.button-layers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding-top: 1%;
+}
+.btnLayer{
+    align-items: center;
+    padding:1%;
+    border: 1px solid black;
+    width: 3%;
+    border-radius: 50%;
+}
+
+.btnLayer:hover{
+    background-color: black;
+    border-color: white;
+    color: white;
+}
+
+#radioLayer1:checked ~ .layer01{
+    transform: translateX(0%);
+}
+
+#radioLayer2:checked ~ .layer01{
+    transform: translateX(-100%);
+}
