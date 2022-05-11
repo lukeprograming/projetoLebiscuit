@@ -1,0 +1,143 @@
+.focus-slider{
+    margin-top: 8%;
+}
+.second-serach-bar-top{
+    display: none;
+}
+
+#inputs-footer{
+    font-size: 15px;
+    display: flex; 
+    width: 50%; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 20px;
+}
+.layers img{
+    cursor: pointer;
+}
+
+header{
+    position: fixed;
+    z-index: 1000;
+}
+
+
+
+@media(max-width: 1000px){
+    *{
+        font-size: 11px;
+    }
+    a{
+        font-size: 10px;    
+    }
+
+    .Header-search-menu a{
+        display: none;
+    }
+    .Header-search-menu img{
+        width: 100%;
+    }
+
+    .pedidos-official{
+        display: none;
+    }
+
+    .Header-logo{
+        display: none;
+    }
+    .header-main-elements{
+        justify-content: space-between;
+    }
+    .search-bar{
+        font-size: 140%;
+    }
+    .Header-serach-bar-ajustes{
+        margin: 1%;
+    }
+    .element-black,.element-red{
+        font-size: 15px;
+    }
+
+    .button-all-departament{
+        width: 30%;
+    }
+    .bar{
+        max-width: 70%;
+    }
+
+    .header-menu-button-1{
+        gap: 10px;
+        display: flex;
+        width: 20%;
+    }
+
+    .products{
+        font-size: 15px;
+    }
+
+    #id1teste{
+        display: none;
+    }
+
+    .focus-slider{
+        max-height: 60%;
+    }
+
+    .slides{
+        height: 60%;
+    }
+
+}
+
+@media(max-width: 750px){
+    *{
+        font-size: 8px;
+    }
+
+    .manul-button{
+        width: 50%;
+        transform: translateX(50%);
+    }
+
+    .Header-serach-bar-ajustes{
+        display: none;
+    }
+    #inputs-footer{
+        font-size: 5px;
+    }
+
+    #last-head strong{
+        font-size: 10px;
+    }
+
+    #last-head h2{
+        font-size: 15px;
+    }
+
+    #inputs-footer{
+        width: 80%;
+    }
+
+    .second-serach-bar-top{
+        margin-top: 1%;
+        display: block;
+    }
+
+
+    .focus-slider{
+        margin-top: 18%;
+    }
+
+    .layers{
+        flex-direction: column;
+    }
+
+    .button-layers{
+        display: none;
+    }
+
+    #services{
+        height: 50%;
+    }
+}
